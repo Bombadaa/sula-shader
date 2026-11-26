@@ -2,6 +2,8 @@
 
 `@studio-treo/sula` is an npm package for animated WebGL shader backgrounds in React, Next.js, Vue, Svelte and plain HTML. One web component, `<sula-shader>`, draws animated gradients, mesh gradients, light and liquid effects live on the GPU, with no dependencies and 27 kB gzipped. You pick and tune the look in [Sula Designer](https://sula.ink/designer), the free browser editor with 33 shaders and their presets.
 
+[![Sula Designer in the browser: the Sculpture shader moves live on the stage, with the shader library on the left and its controls on the right](https://raw.githubusercontent.com/Bombadaa/sula-shader/main/media/sula-designer.webp)](https://sula.ink/designer)
+
 ```bash
 npm i @studio-treo/sula
 ```
@@ -25,7 +27,7 @@ export function Hero() {
 - Pauses while off-screen, shows a still frame with `prefers-reduced-motion`, and is safe with server rendering.
 - Webflow, Framer or a page without a build step: use the [embed snippet](#without-npm).
 - Examples for React, Next.js, Vue, Svelte and HTML: [github.com/Bombadaa/sula-shader](https://github.com/Bombadaa/sula-shader)
-- Sula for Mac: the same looks as a live wallpaper and screensaver, [sula.ink](https://sula.ink)
+- Sula for Mac: the same looks as a live wallpaper and screensaver, see [Sula for Mac](#sula-for-mac)
 
 ## 1. Get a look
 
@@ -181,6 +183,12 @@ import { SulaShader, parseLook, buildLook, lookJson, LOOK_VERSION, type SulaLook
 - `parseLook(value)`: checks a look (object or JSON string), returns `{ look }` or `{ error }`.
 - `buildLook({ name?, frag, settings })`: a v1 look from your own GLSL.
 - `lookJson(look)`: the look as JSON that is safe inside a `<script>` element.
+
+## Sula for Mac
+
+The looks from Sula Designer also run on the Mac: as a live wallpaper, as a screen saver with a Liquid Glass clock and on the lock screen, drawn by the same engine. [sula.ink](https://sula.ink)
+
+[![Sula for Mac on a desk: a live Sula shader as the screen saver on the monitor, with the Liquid Glass clock](https://raw.githubusercontent.com/Bombadaa/sula-shader/main/media/sula-mac-desk.jpg)](https://sula.ink)
 
 ## License
 
