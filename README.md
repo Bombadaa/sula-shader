@@ -1,6 +1,6 @@
 # @studio-treo/sula: animated shader backgrounds for React, Vue, Svelte and HTML
 
-`@studio-treo/sula` is an npm package for animated WebGL shader backgrounds in React, Next.js, Vue, Svelte and plain HTML. One web component, `<sula-shader>`, draws animated gradients, mesh gradients, light and liquid effects live on the GPU, with no dependencies and 26 kB gzipped. You pick and tune the look in [Sula Designer](https://sula.ink/designer), the free browser editor with 33 shaders and their presets.
+`@studio-treo/sula` is an npm package for animated WebGL shader backgrounds in React, Next.js, Vue, Svelte and plain HTML. One web component, `<sula-shader>`, draws animated gradients, mesh gradients, light and liquid effects live on the GPU, with no dependencies and 27 kB gzipped. You pick and tune the look in [Sula Designer](https://sula.ink/designer), the free browser editor with 33 shaders and their presets.
 
 ```bash
 npm i @studio-treo/sula
